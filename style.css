@@ -1,0 +1,63 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+
+h1 {
+  text-align: center;
+  padding: 20px 0;
+  background-color: slategray;
+  color: #fff;
+  margin: 0;
+}
+
+
+#listaPaises {
+  width: 30%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #fff;
+  height: calc(100vh - 60px); 
+  overflow-y: auto;
+}
+
+.nombre-pais {
+  cursor: pointer;
+  padding: 10px;
+  margin: 5px 0;
+  transition: background-color 0.3s;
+}
+
+.nombre-pais:hover {
+  background-color: #f0f0f0;
+}
+
+.seleccionado {
+  background-color: #cce5ff !important;
+  color: #007bff !important;
+}
+
+
+#detallesPais {
+  width: 70%;
+  float: left;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+  height: calc(100vh - 60px); 
+  overflow-y: auto; 
+}
+
+#detallesPais h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+#detallesPais p {
+  margin: 5px 0;
+  color: #666;
+}
